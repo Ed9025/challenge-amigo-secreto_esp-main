@@ -9,9 +9,12 @@ function agregarAmigo() {
         alert("Por favor, inserte un nombre.");
     } else {
         amigos.push(nombre);
-        //console.log(amigos); 
+       // console.log(amigos);
+        limpiarInput();
     }
 }
 
 
-    
+function limpiarInput() {
+    document.querySelector("#amigo").value = "";
+}
