@@ -25,18 +25,34 @@ function actualizarTextoHTML(elemento, texto) {
     let elementoHTML = document.getElementById(elemento);
     elementoHTML.innerHTML += `<li>${texto}</li>`
     return
+}
 
-
+function limpiarListaAmigos(){
+     //limpia la lista de amigos antes de agregar nuevos
+     let lista = document.getElementById("listaAmigos");
+     lista.innerHTML = "";
+     return
 }
 
 function listarAmigos() {
-    //limpia la lista de amigos antes de agregar nuevos
-    let lista = document.getElementById("listaAmigos");
-    lista.innerHTML = "";
+    limpiarListaAmigos();
     //itinerancia en cada elemento contenido en array
     for (let i of amigos) {
         actualizarTextoHTML("listaAmigos", i);
+    }
+    return
+}
 
+function sortearAmigo(){
+    if(amigos != ""){
+        i = Math.floor(Math.random()*amigos.length);
+        let nombreSorteado = amigos[i];
+        let resultado = document.getElementById("resultado")
+        resultado.innerHTML = `<li> El amigo sorteado es ${nombreSorteado}</li>`;
+        limpiarListaAmigos();
+        
+    } else{
+        alert("La lista de amigos esta vacía");
     }
     return
 }
