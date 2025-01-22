@@ -10,9 +10,9 @@ Este representa mi primer proyecto en Github el cual es un sencillo inicio. El p
 ![Static Badge](https://img.shields.io/badge/HTML-blue)
 
 
-![captura](assets/screenshots/SC1.png)
-![captura](assets/screenshots/SC2.png)
-![captura](assets/screenshots/S3.png)
+![captura](https://drive.google.com/file/d/1BGOzmWtDeqmADCqncgARb7Q-N_U9NhEb/view?usp=drive_link)
+![captura](https://drive.google.com/file/d/14NenjPd-KiidnhJAE5j2DQzUaFgO1BQa/view?usp=drive_link)
+![captura](https://drive.google.com/file/d/1ylmgnzyCPaftJitt9MBiu0AOmVA0wbP9/view?usp=drive_link)
 
 ## Uso
 
