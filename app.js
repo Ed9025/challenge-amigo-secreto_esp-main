@@ -55,4 +55,4 @@ function sortearAmigo(){
         alert("La lista de amigos esta vacía");
     }
     return
-}
+}   
